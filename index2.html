@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+        h1{
+            text-align: center;
+            color: yellow;
+            text-decoration: underline;
+            cursor: pointer;
+            font-style: italic;
+        }
+        h1:hover{
+            color: red;
+        }
+
+        .maincontainer{
+            /* border: 2px solid red; */
+            width: 500px;
+            margin: auto;
+        }
+        .row{
+            
+            text-align: center;
+            margin-top: 5px;
+            padding: 3px;
+         }
+        button{
+            padding: 23px;
+            font-size: 18px;
+            /* border: 2px solid red; */
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .minus{
+            
+            width: 56px;
+        }
+        .output{
+            /* border: 2px solid blue; */
+            width: 258px;
+            margin: auto;
+            height: 48px;
+            margin-bottom: 5px;
+            border-radius: 12px;
+            background-color: white;
+            color: blue;
+            margin-top: 145px;
+        }
+        body{
+            background-color: black;
+        }
+        .output p{
+            color: green;
+            text-align: center;
+            position: relative;
+            top: 13px;
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <h1>CALCULATE, ME</h1>
+    <div class="output"id="print">
+    
+        <!-- <p>See,Your output here.</p> -->
+  
+    </div>
+    <div class="maincontainer">
+        <div class="row">
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>X</button>
+        </div>
+        <div class="row">
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="minus">-</button>
+        </div>
+        <div class="row">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>+</button>
+         </div>
+              <div class="row">
+                <button style="margin-right: 4px;">0</button>
+                <button style="margin-right: 3px;">.</button>
+                <button>/</button>
+                <button >=</button>
+            </div>
+    </div>
+    <script>
+        
+        
+    </script>
+</body>
+</html>
